@@ -1,0 +1,23 @@
+{
+  "pins" : [
+    {
+      "identity" : "alamofire",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Alamofire/Alamofire.git",
+      "state" : {
+        "revision" : "b2fa556e4e48cbf06cf8c63def138c98f4b811fa",
+        "version" : "5.8.0"
+      }
+    },
+    {
+      "identity" : "hdspmdemo",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/erduoniba/HDSPMDemo.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "c72cdb0dba53ab129e7389745ac7a9ede627cc67"
+      }
+    }
+  ],
+  "version" : 2
+}

@@ -20,7 +20,9 @@ let package = Package(
         // Targets can depend on other targets in this package, and on products in packages this package depends on.
         .target(
             name: "HDLibrary",
-            dependencies: ["Alamofire"], exclude: ["README.md"]),
+            dependencies: ["Alamofire"],
+            path: "Sources",
+            exclude: ["README.md"]),
         .testTarget(
             name: "HDLibraryTests",
             dependencies: ["HDLibrary", "Alamofire"]),
