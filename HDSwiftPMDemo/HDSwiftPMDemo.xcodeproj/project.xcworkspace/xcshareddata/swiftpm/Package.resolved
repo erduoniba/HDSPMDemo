@@ -8,6 +8,15 @@
         "revision" : "b2fa556e4e48cbf06cf8c63def138c98f4b811fa",
         "version" : "5.8.0"
       }
+    },
+    {
+      "identity" : "hdspmdemo",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/erduoniba/HDSPMDemo.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "97ce12f6b02d789832e9e393e58e26f5a227822e"
+      }
     }
   ],
   "version" : 2
