@@ -9,6 +9,6 @@ import Foundation
 
 public struct HDLibrary2 {
     public static func printInfo() {
-        debugPrint("HDLibrary2 printInfo3")
+        debugPrint("HDLibrary2 printInfo4")
     }
 }
