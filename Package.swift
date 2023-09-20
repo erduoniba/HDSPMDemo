@@ -21,8 +21,9 @@ let package = Package(
         .target(
             name: "HDLibrary",
             dependencies: ["Alamofire"],
-            path: "Sources",
-            exclude: ["README.md"]),
+            path: "Sources/HDLibrary",
+            exclude: ["README.md"],
+            sources: ["HDLibrary.swift", "HDLibrary2.swift"]),
         .testTarget(
             name: "HDLibraryTests",
             dependencies: ["HDLibrary", "Alamofire"]),
