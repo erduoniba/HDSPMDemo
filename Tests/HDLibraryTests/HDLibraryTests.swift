@@ -1,5 +1,7 @@
 import XCTest
-@testable import HDLibrary
+@testable import HDSwiftLibrary
+
+import HDOCLibrary
 
 final class HDLibraryTests: XCTestCase {
     let lib = HDLibrary()
@@ -11,5 +13,7 @@ final class HDLibraryTests: XCTestCase {
         lib.printAFInfo()
         
         HDLibrary2.printInfo()
+        
+        HDOCLibrary.ocPrint()
     }
 }

@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D94207762ABAA06800F03976 /* HDLibrary in Frameworks */ = {isa = PBXBuildFile; productRef = D94207752ABAA06800F03976 /* HDLibrary */; };
+		D90BFD912ABB2708006200D9 /* HDLibrary in Frameworks */ = {isa = PBXBuildFile; productRef = D90BFD902ABB2708006200D9 /* HDLibrary */; };
 		D9D8B0EA2ABA869B00D2DCF8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D8B0E92ABA869B00D2DCF8 /* AppDelegate.swift */; };
 		D9D8B0EC2ABA869B00D2DCF8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D8B0EB2ABA869B00D2DCF8 /* SceneDelegate.swift */; };
 		D9D8B0EE2ABA869B00D2DCF8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D8B0ED2ABA869B00D2DCF8 /* ViewController.swift */; };
@@ -18,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D90BFD8F2ABB26CA006200D9 /* HDLibrary */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = HDLibrary; path = ..; sourceTree = "<group>"; };
 		D9D8B0E62ABA869B00D2DCF8 /* HDSwiftPMDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HDSwiftPMDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9D8B0E92ABA869B00D2DCF8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D9D8B0EB2ABA869B00D2DCF8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -33,7 +34,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D94207762ABAA06800F03976 /* HDLibrary in Frameworks */,
+				D90BFD912ABB2708006200D9 /* HDLibrary in Frameworks */,
 				D9E7B03C2ABA897C00A9D968 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -44,6 +45,7 @@
 		D94207722ABA9F2800F03976 /* Packages */ = {
 			isa = PBXGroup;
 			children = (
+				D90BFD8F2ABB26CA006200D9 /* HDLibrary */,
 			);
 			name = Packages;
 			sourceTree = "<group>";
@@ -105,7 +107,7 @@
 			name = HDSwiftPMDemo;
 			packageProductDependencies = (
 				D9E7B03B2ABA897C00A9D968 /* Alamofire */,
-				D94207752ABAA06800F03976 /* HDLibrary */,
+				D90BFD902ABB2708006200D9 /* HDLibrary */,
 			);
 			productName = HDSwiftPMDemo;
 			productReference = D9D8B0E62ABA869B00D2DCF8 /* HDSwiftPMDemo.app */;
@@ -137,7 +139,6 @@
 			mainGroup = D9D8B0DD2ABA869B00D2DCF8;
 			packageReferences = (
 				D9E7B03A2ABA897C00A9D968 /* XCRemoteSwiftPackageReference "Alamofire" */,
-				D942077A2ABAF3CB00F03976 /* XCRemoteSwiftPackageReference "HDSPMDemo" */,
 			);
 			productRefGroup = D9D8B0E72ABA869B00D2DCF8 /* Products */;
 			projectDirPath = "";
@@ -388,14 +389,6 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		D942077A2ABAF3CB00F03976 /* XCRemoteSwiftPackageReference "HDSPMDemo" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/erduoniba/HDSPMDemo.git";
-			requirement = {
-				branch = main;
-				kind = branch;
-			};
-		};
 		D9E7B03A2ABA897C00A9D968 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
@@ -407,7 +400,7 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		D94207752ABAA06800F03976 /* HDLibrary */ = {
+		D90BFD902ABB2708006200D9 /* HDLibrary */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = HDLibrary;
 		};

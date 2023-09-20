@@ -8,6 +8,7 @@
 import UIKit
 import Alamofire
 import HDLibrary
+import HDOCLibrary
 
 class ViewController: UIViewController {
 
@@ -25,6 +26,8 @@ class ViewController: UIViewController {
         HDLibrary().printAFInfo()
         // 使用自定义的SPM的方法，多个类测试验证
         HDLibrary2.printInfo()
+        
+        HDOCLibrary.ocPrint()
     }
 
 
