@@ -9,7 +9,7 @@ import UIKit
 import Alamofire
 import HDSwiftLibrary
 import HDOCLibrary
-import HDLibrary
+import Charts
 
 class ViewController: UIViewController {
 
@@ -29,6 +29,8 @@ class ViewController: UIViewController {
         HDLibrary2.printInfo()
         
         HDOCLibrary.ocPrint()
+        
+        AxisMarks()
     }
 
 

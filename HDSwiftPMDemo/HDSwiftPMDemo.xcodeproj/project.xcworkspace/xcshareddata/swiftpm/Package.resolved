@@ -10,12 +10,21 @@
       }
     },
     {
+      "identity" : "charts",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/danielgindi/Charts",
+      "state" : {
+        "branch" : "master",
+        "revision" : "e516b04834b6e2072367f1366750c01c164e6545"
+      }
+    },
+    {
       "identity" : "hdspmdemo",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/erduoniba/HDSPMDemo.git",
       "state" : {
         "branch" : "main",
-        "revision" : "97ce12f6b02d789832e9e393e58e26f5a227822e"
+        "revision" : "7cebfbd24c6a47a9bb8ee8f5d8735c5a77573343"
       }
     }
   ],
