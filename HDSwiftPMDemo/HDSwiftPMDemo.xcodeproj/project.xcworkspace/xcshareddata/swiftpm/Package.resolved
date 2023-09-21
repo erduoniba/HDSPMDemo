@@ -17,15 +17,6 @@
         "branch" : "master",
         "revision" : "e516b04834b6e2072367f1366750c01c164e6545"
       }
-    },
-    {
-      "identity" : "hdspmdemo",
-      "kind" : "remoteSourceControl",
-      "location" : "https://github.com/erduoniba/HDSPMDemo.git",
-      "state" : {
-        "branch" : "main",
-        "revision" : "92929417bd79302854465d6b0f664b9a3ff83faf"
-      }
     }
   ],
   "version" : 2

@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D90BFD942ABB296E006200D9 /* HDLibrary in Frameworks */ = {isa = PBXBuildFile; productRef = D90BFD932ABB296E006200D9 /* HDLibrary */; };
 		D90BFDA22ABBE8D9006200D9 /* DGCharts in Frameworks */ = {isa = PBXBuildFile; productRef = D90BFDA12ABBE8D9006200D9 /* DGCharts */; };
+		D90BFDA52ABC1057006200D9 /* HDLibrary in Frameworks */ = {isa = PBXBuildFile; productRef = D90BFDA42ABC1057006200D9 /* HDLibrary */; };
 		D9D8B0EA2ABA869B00D2DCF8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D8B0E92ABA869B00D2DCF8 /* AppDelegate.swift */; };
 		D9D8B0EC2ABA869B00D2DCF8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D8B0EB2ABA869B00D2DCF8 /* SceneDelegate.swift */; };
 		D9D8B0EE2ABA869B00D2DCF8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D8B0ED2ABA869B00D2DCF8 /* ViewController.swift */; };
@@ -19,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D90BFDA32ABC104C006200D9 /* HDLibrary */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = HDLibrary; path = ..; sourceTree = "<group>"; };
 		D9D8B0E62ABA869B00D2DCF8 /* HDSwiftPMDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HDSwiftPMDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9D8B0E92ABA869B00D2DCF8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D9D8B0EB2ABA869B00D2DCF8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -34,8 +35,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D90BFD942ABB296E006200D9 /* HDLibrary in Frameworks */,
 				D90BFDA22ABBE8D9006200D9 /* DGCharts in Frameworks */,
+				D90BFDA52ABC1057006200D9 /* HDLibrary in Frameworks */,
 				D9E7B03C2ABA897C00A9D968 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -46,6 +47,7 @@
 		D94207722ABA9F2800F03976 /* Packages */ = {
 			isa = PBXGroup;
 			children = (
+				D90BFDA32ABC104C006200D9 /* HDLibrary */,
 			);
 			name = Packages;
 			sourceTree = "<group>";
@@ -107,8 +109,8 @@
 			name = HDSwiftPMDemo;
 			packageProductDependencies = (
 				D9E7B03B2ABA897C00A9D968 /* Alamofire */,
-				D90BFD932ABB296E006200D9 /* HDLibrary */,
 				D90BFDA12ABBE8D9006200D9 /* DGCharts */,
+				D90BFDA42ABC1057006200D9 /* HDLibrary */,
 			);
 			productName = HDSwiftPMDemo;
 			productReference = D9D8B0E62ABA869B00D2DCF8 /* HDSwiftPMDemo.app */;
@@ -140,7 +142,6 @@
 			mainGroup = D9D8B0DD2ABA869B00D2DCF8;
 			packageReferences = (
 				D9E7B03A2ABA897C00A9D968 /* XCRemoteSwiftPackageReference "Alamofire" */,
-				D90BFD922ABB296E006200D9 /* XCRemoteSwiftPackageReference "HDSPMDemo" */,
 				D90BFDA02ABBE8D9006200D9 /* XCRemoteSwiftPackageReference "Charts" */,
 			);
 			productRefGroup = D9D8B0E72ABA869B00D2DCF8 /* Products */;
@@ -392,14 +393,6 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		D90BFD922ABB296E006200D9 /* XCRemoteSwiftPackageReference "HDSPMDemo" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/erduoniba/HDSPMDemo.git";
-			requirement = {
-				branch = main;
-				kind = branch;
-			};
-		};
 		D90BFDA02ABBE8D9006200D9 /* XCRemoteSwiftPackageReference "Charts" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/danielgindi/Charts";
@@ -419,15 +412,14 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		D90BFD932ABB296E006200D9 /* HDLibrary */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = D90BFD922ABB296E006200D9 /* XCRemoteSwiftPackageReference "HDSPMDemo" */;
-			productName = HDLibrary;
-		};
 		D90BFDA12ABBE8D9006200D9 /* DGCharts */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = D90BFDA02ABBE8D9006200D9 /* XCRemoteSwiftPackageReference "Charts" */;
 			productName = DGCharts;
+		};
+		D90BFDA42ABC1057006200D9 /* HDLibrary */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = HDLibrary;
 		};
 		D9E7B03B2ABA897C00A9D968 /* Alamofire */ = {
 			isa = XCSwiftPackageProductDependency;

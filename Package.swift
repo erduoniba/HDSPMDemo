@@ -20,9 +20,10 @@ let package = Package(
         // Targets can depend on other targets in this package, and on products in packages this package depends on.
         .target(name: "HDOCLibrary",
                 path: "Sources/HDOC",
+//                参考 https://github.com/SwiftKickMobile/SwiftMessages
                 resources: [
-                    .process("Resources/Images/on_demo.png"),
-                    .copy("Resources/SH/translate.sh"),
+                    .process("Resources/Images"),
+                    .copy("Resources/SH"),
                 ]),
         .target(
             name: "HDSwiftLibrary",

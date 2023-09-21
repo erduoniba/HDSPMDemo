@@ -30,16 +30,17 @@ class ViewController: UIViewController {
         
         HDOCLibrary.ocPrint()
         
-        let bundle = Bundle(for: type(of: self))
-
-        let image = UIImage(named: "on_demo", in: Bundle., compatibleWith: nil)
-
+        // 参考 https://github.com/SwiftKickMobile/SwiftMessages
+        let bundle = Bundle.sm_frameworkBundle()
+        let image = UIImage(named: "on_demo", in: bundle, with: nil)
+        let imageView = UIImageView(frame: CGRect(x: 100, y: 100, width: 100, height: 100))
+        view.addSubview(imageView)
+        imageView.image = image
         
+        if let path = bundle.path(forResource: "SH/translate", ofType: "sh") {
+            let shString = try? String(contentsOfFile: path)
+            debugPrint("sh: \(shString)")
+        }
     }
-}
-
-
-extension Bundle {
-    static let module = Bundle(path: "\(Bundle.main.bundlePath)/HDOCLibrary")
 }
 
