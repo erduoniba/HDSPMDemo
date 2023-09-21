@@ -22,7 +22,7 @@ let package = Package(
                 path: "Sources/HDOC",
                 resources: [
                     .process("Resources/Images/on_demo.png"),
-                    .copy("Resources/SH/translate.sh")
+                    .copy("Resources/SH/translate.sh"),
                 ]),
         .target(
             name: "HDSwiftLibrary",

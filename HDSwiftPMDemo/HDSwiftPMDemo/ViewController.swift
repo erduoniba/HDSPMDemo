@@ -30,9 +30,16 @@ class ViewController: UIViewController {
         
         HDOCLibrary.ocPrint()
         
-        AxisMarks()
+        let bundle = Bundle(for: type(of: self))
+
+        let image = UIImage(named: "on_demo", in: Bundle., compatibleWith: nil)
+
+        
     }
+}
 
 
+extension Bundle {
+    static let module = Bundle(path: "\(Bundle.main.bundlePath)/HDOCLibrary")
 }
 

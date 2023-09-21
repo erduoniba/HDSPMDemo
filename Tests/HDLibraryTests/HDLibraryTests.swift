@@ -13,6 +13,7 @@ final class HDLibraryTests: XCTestCase {
         lib.printAFInfo()
         
         HDLibrary2.printInfo()
+        HDLibrary2().libImage("on_demo")
         
         HDOCLibrary.ocPrint()
     }
